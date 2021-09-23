@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    top: 0;
+    width: 100%;
+}
+
+        /* ======================================Update-Product.jsp==================================== */
+
+.update-product-page{
+	width: 400px;
+	height: 810px;
+	background-color:white;
+	box-shadow: 4px 4px 4px rgba(24, 29, 25, 0.29);
+}
+.update-product-page .avtar-4{
+	background-color: #0bf7b8;
+}
+.update-product-page .avtar-4 img{
+	border-radius: 50%;
+}
+.update-product-page .update-product-form .description_input input{
+	height: 150px;
+}
+
+     /* ====================================AddProductjap============================================== */
+     
+.product-page{
+	width: 400px;
+	height: 780px;
+	background-color:white;
+	box-shadow: 4px 4px 4px rgba(24, 29, 25, 0.29);
+}
+.product-page .avtar-3{
+	background-color: #0bf7b8;
+}
+.product-page .avtar-3 img{
+	border-radius: 50%;
+}
+.product-page .product-form .description_input input{
+	height: 150px;
+}
+/* .product-page .product-form .description_input input text-area{
+	padding-top: 0;
+} */
+
+
+   /* ===========================================Dashboard & Dashboard-Update===================================== */
+   
+.profile-details{
+	width: 300px;
+	height: 390px;
+	background-color:white;
+	box-shadow: 4px 4px 4px rgba(24, 29, 25, 0.29);
+}
+.profile-details .profile-image{
+	background-color: #0bf7b8;
+}
+.profile-details .profile-image img{
+	border-radius: 50%;
+}
+.btn5 button a{
+	color: white;
+	text-decoration: none;
+}
+.alert{
+	margin-bottom: 0;
+	padding: 0;
+}
+
+          /*  =============================Header-Bar=================================== */
+.nav-bar{
+    background-color: rgb(200, 250, 222);
+}
+/* .row{
+    border: 2px solid red;
+}
+.col-12{
+    border: 5px solid blue;
+} */
+.nav-bar .header-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bar .header-bar .logo img{
+    width: 275px;
+    height: 70px;
+    padding: 3px;
+}
+.nav-bar .header-bar .search-bar{
+    display: flex;
+    border-radius: 20px;
+    margin-left: -130px;
+    padding: 2px;
+    background: white;
+    outline: none;
+
+}
+.nav-bar .header-bar .search-bar input{
+    width: 250px;
+    border: none;
+    outline: none;
+    background: white;
+    border-radius: 20px;
+    padding: 2px;
+    font-size: 17px;
+    font-weight: 400;
+}
+.nav-bar .header-bar .search-bar button{
+    padding: 3px 8px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    background: none;
+}
+.nav-bar .header-bar .search-bar button .fa-search{
+    color: #0bf7b8;
+    font-size: 20px;
+}
+.nav-bar .header-bar span i{
+    margin: 5px 10px;
+    cursor: pointer;
+    color: black;
+    font-size: 30px;
+    
+}
+.nav-bar .header-bar span{
+    display: none;
+
+}
+
+.nav-bar .header-bar .menu-bar ul{
+    margin-bottom: 0;
+}
+.nav-bar .header-bar .menu-bar ul li{
+    display: inline-block;
+    padding: 8px;
+    
+}
+.nav-bar .menu-bar ul li a .fa-user{
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 3px 6px;
+    background: rgb(226, 17, 17);
+    color: white;
+    border-radius: 10px;
+}
+.nav-bar .menu-bar ul li a .fa-shopping-cart{
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 3px 5px;
+    border-radius: 50%;
+}
+ul li a .fa-shopping-cart:hover{
+    background: rgb(226, 17, 17);
+    color: white;
+}
+.nav-bar .header-bar .menu-bar ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 450;
+}
+li a .fa-caret-down{
+    padding-left: 4px;
+}
+.menu-bar ul li .dropdown-content{
+    display: none;
+}
+.menu-bar ul li:hover .dropdown-content{
+    display: block;
+    position: absolute;
+    background-color: rgb(200, 250, 222);
+    margin-top: 5px;
+    box-shadow: 5px 5px 5px gray;
+    z-index: 2;
+}
+.menu-bar ul li:hover .dropdown-content ul li{
+    display: block;
+}
+.dropdown-content ul li{
+    border-bottom: 1px dotted black;
+    
+}
+.dropdown-content ul li a{
+    font-weight: 300;
+}
+.dropdown-content ul li:last-child{
+    border-bottom: none;
+}
+.dropdown-content ul li:hover{
+    background-color: white;
+}
+
+.profile-image img{
+	background-color: green;
+}
+
+                 /* ==================================Footer-Bar==================================== */
+.footer-bar{
+    background-color: #6f6d6d;
+    /* border: 2px solid red; */
+}
+
+.footer-bar .row .col-3{
+    /* border: 2px solid green; */
+    max-width: 100%;
+}
+
+.col-3 .app-logo img{
+    width: 45%;
+    height: auto;
+
+}
+.col-3 #img-logo{
+    width: 80%;
+    height: auto;
+
+}
+.col-3 ul li{
+    padding: 7px 0;
+}
+.col-3 ul li a i{
+    font-size: 20px;
+}
+.col-3 ul li a{
+    text-decoration: none;
+}
+.col-3 ul li a .fa-facebook-f{
+    color: white;
+    background-color: blue;
+    padding: 3px 7px;
+}
+.col-3 ul li a .fa-instagram{
+    padding: 5px;
+    background-color: purple;
+    color: white;
+}
+.col-3 ul li a .fa-twitter{
+    color: white;
+    padding: 4px;
+    background-color: skyblue;
+}
+.col-3 ul li a .fa-linkedin-in{
+    background-color: aqua;
+    color: white;
+    padding: 5px;
+}
+.col-3 ul li{
+    list-style: none;
+}
+
+     
+     /* =====================================================Media-Query================================================== */
+
+@media only screen and (max-width: 1150px) {
+    body{
+        background-color: rgb(223, 217, 217)
+    }
+    .nav-bar .header-bar{
+        display: block;
+        text-align: center;
+    }
+    .nav-bar .header-bar .search-bar{
+        background: white;
+        width: 700px;
+        margin: 10px auto;
+    }
+    .nav-bar .header-bar .search-bar .search input{
+        width: 660px;
+    }
+    .nav-bar .header-bar .menu-bar{
+        margin: 5px auto;
+    }
+    
+}
+@media only screen and (max-width: 740px) {
+    body{
+        background-color: rgb(47, 152, 145)
+    }
+    .nav-bar .header-bar{
+        display: block;
+        text-align: center;
+    }
+    .nav-bar .header-bar .search-bar{
+        background: white;
+        width: 400px;
+        margin: 10px auto;
+    }
+    .nav-bar .header-bar .search-bar .search input{
+        width: 360px;
+    }
+    .nav-bar .header-bar .menu-bar{
+        margin: 5px auto;
+    }
+    .footer-bar .row{
+        display: block;
+        margin: 1px auto;
+    }
+    .footer-bar .row .col-3{
+        margin: 1px auto;
+    }
+    .col-3 .app-logo img{
+        width: 20%;
+        height: auto;
+    
+    }
+    .col-3 #img-logo{
+        width: 60%;
+        height: auto;
+    
+    }
+
+    
+
+
+}
+@media only screen and (max-width: 490px) {
+    body{
+        background-color: rgb(47, 152, 145)
+    }
+    .nav-bar .header-bar{
+        display: block;
+        text-align: center;
+    }
+    .nav-bar .header-bar .search-bar{
+        background: white;
+        width: 280px;
+        margin: 5px auto;
+
+    }
+    .nav-bar .header-bar .search-bar .search input{
+        width: 240px;
+    }
+    .nav-bar .header-bar .menu-bar #Menu1{
+        float: left;
+        margin-top: 15px;
+        background-color: #bdbdbd;
+        padding: 10px 25px 10px 5px;
+
+    }
+    .menu-bar ul li:hover .dropdown-content{
+        margin-left: 70px;
+        margin-top: 0;
+        
+    }
+    .nav-bar .header-bar .menu-bar{
+        display: none;
+    }
+    .nav-bar .header-bar .menu-bar ul li{
+        display: block;
+    }
+    .nav-bar .header-bar span{
+        display: block;
+        float: left;
+    }
+    .col-3 .app-logo img{
+        width: 29%;
+        height: auto;
+    
+    }
+    
+    
+}

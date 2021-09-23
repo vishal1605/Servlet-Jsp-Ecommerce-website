@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  
+  <welcome-file-list>
+  <welcome-file>home.jsp</welcome-file>
+  
+  </welcome-file-list>
+  <servlet>
+  <servlet-name>shoppingcart</servlet-name>
+  <servlet-class>com.ElectronicMart.cartServlet.RegisterCart</servlet-class>
+  
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>shoppingcart</servlet-name>
+  <url-pattern>/RegisterCart</url-pattern>
+  
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>deleteCart</servlet-name>
+  <servlet-class>com.ElectronicMart.cartServlet.DeleteCart</servlet-class>
+  
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>deleteCart</servlet-name>
+  <url-pattern>/DeleteCart</url-pattern>
+  
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>login</servlet-name>
+  <servlet-class>com.ElectronicMart.Servlet.Login1</servlet-class>
+  
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>login</servlet-name>
+  <url-pattern>/Login1</url-pattern>
+  
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>category</servlet-name>
+  <servlet-class>com.ElectronicMart.Servlet.CategoryCondition</servlet-class>
+  
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>category</servlet-name>
+  <url-pattern>/CategoryCondition</url-pattern>
+  
+  </servlet-mapping>
+  
+</web-app>
